@@ -32,10 +32,10 @@ To use the bomber type the following commands in Termux:
 ```
 pkg install git
 pkg install python
-git clone https://github.com/TheSpeedX/TBomb.git
-cd TBomb
-chmod +x TBomb.sh
-./TBomb.sh
+git clone https://github.com/kamal200947/almodamer.git
+cd almodamer
+chmod +x almodamer.sh
+./almodamer.sh
 ```
 
 ### For Linux
@@ -88,16 +88,13 @@ Watch International Bombing Method <a href="https://youtu.be/JqsHkyIcnPM">here</
 
 ## Donators
 <br><br>
-[@] 34D30Y ( 34db0y@protonmail.com  )
+
 <br>
 [@] SC AMAN
 <br><br>
 # CONTACT
 Feel Free To Open An Issue...
 
-           Mail: ggspeedx29@gmail.com
-
-           YouTube Channel: https://www.youtube.com/c/GyanaTech
-  <a href="https://www.youtube.com/c/GyanaTech">Check My Channel</a>
+           
 "# almodamer" 
 # almodamer
