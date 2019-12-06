@@ -1,4 +1,4 @@
-# TBomb v1.6b
+# almodamer
 An open-source SMS/call bomber for Linux And Termux.
 
 This script is only for educational purposes or to prank.
@@ -43,9 +43,9 @@ To use the bomber type the following commands in Linux terminal:
 ```
 sudo apt install git
 git clone https://github.com/TheSpeedX/TBomb.git
-cd TBomb
-chmod +x TBomb.sh
-sudo bash TBomb.sh
+cd almodamer
+chmod +x almodamer.sh
+sudo bash almodamer.sh
 ```
 
 Notice: git installation methods are not universal and do differ between distributions, so
