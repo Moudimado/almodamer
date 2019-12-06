@@ -11,8 +11,6 @@ import random
 import base64
 import urllib.request
 import urllib.parse
-from PIL import Image
-
 try:
     import requests
 except ImportError:
