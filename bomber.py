@@ -464,7 +464,15 @@ def start(target, counter, delay, ch, cc):
 
 
 def update():
-    pass
+    stuff_to_update = ['bomber.py', '.version']
+    for fl in stuff_to_update:
+        dat = urllib.request.urlopen(
+            "https://raw.githubusercontent.com/kamal200947/almodamer" + fl).read()
+        file = open(fl, 'wb')
+        file.write(dat)
+        file.close()
+    print('\n\t\t!!!! ﺡﺎﺠﻨﺑ ﺚﻳﺪﺤﺘﻟﺍ ﻢﺗ')
+    print('\t...ﻯﺮﺧﺃ ﺓﺮﻣ ﺞﻣﺎﻧﺮﺒﻟﺍ ﻞﻴﻐﺸﺗ ﻰﺟﺮﻳ')
     exit()
 
 
