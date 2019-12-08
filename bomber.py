@@ -476,7 +476,7 @@ def update():
     exit()
 
 
-os.system("clear")
+clr()
 banner()
 try:
     urllib.request.urlopen('https://www.google.com')
