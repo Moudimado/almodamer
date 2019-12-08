@@ -3,20 +3,20 @@ clear
 echo -e "\e[4;31m ﺮﻣﺎﻋ ﻩﺪﺒﻋ !!! \e[0m"
 echo -e "\e[1;34m ﻢﻜﻟ ﻡﺪﻘﻳ \e[0m"
 echo -e "\e[1;32m ﺮﻣﺪﻤﻟﺍ" ﺞﻣﺎﻧﺮﺑ" \e[0m"
-echo "ﺭﺍﺮﻤﺘﺳﻺﻟ retnE ﻂﻐﺿﺍ"
+echo "ﺭﺍﺮﻤﺘﺳﻺﻟ Enter ﻂﻐﺿﺍ"
 read a1
 if [[ -s update.speedx ]];then
-echo "كل المتطلبات موجوده...."
+echo "....ﻩﺩﻮﺟﻮﻣ ﺕﺎﺒﻠﻄﺘﻤﻟﺍ ﻞﻛ"
 else
-echo 'جارى تثبيت المتطلبات....'
+echo '....ﺕﺎﺒﻠﻄﺘﻤﻟﺍ ﺖﻴﺒﺜﺗ ﻯﺭﺎﺟ'
 echo .
 echo .
 apt install figlet toilet python curl -y
 apt install python3-pip
 pip install -r requirements.txt
-echo تم صنع البرنامج بواسطه عبده عامر >update.speedx
-echo تم تثبيت المتطلبات....
-echo اضغط Enter للإستمرار...
+echo ﺮﻣﺎﻋ ﻩﺪﺒﻋ ﻪﻄﺳﺍﻮﺑ ﺞﻣﺎﻧﺮﺒﻟﺍ ﻊﻨﺻ ﻢﺗ >update.speedx
+echo ....ﺕﺎﺒﻠﻄﺘﻤﻟﺍ ﺖﻴﺒﺜﺗ ﻢﺗ
+echo ...ﺭﺍﺮﻤﺘﺳﻺﻟ Enter ﻂﻐﺿﺍ
 read upd
 fi
 while :
@@ -25,21 +25,21 @@ rm *.xxx >/dev/null 2>&1
 clear
 echo -e "\e[1;31m"
 figlet Abdo Amer
-echo -e "\e[1;31m تم الإنشاء بواسطة \e[1;30m"
+echo -e "\e[1;31m ﺔﻄﺳﺍﻮﺑ ﺀﺎﺸﻧﻹﺍ ﻢﺗ \e[1;30m"
 toilet -f mono12 -F border Abdo
 toilet -f mono12 -F border Amer
-echo -e "\e[4;34m هذا البرنامج تم انشاءه بواسطه عبده عامر \e[0m"
-echo -e "\e[1;34m لأى استفسارات تواصل معى!!!\e[0m"
-echo -e "\e[1;32m           قناة التليجرام: https://t.me/mohtrfandroid \e[0m"
-echo -e "\e[4;32m   قناة اليوتيوب: https://m.youtube.com/channel/UCmPba6mOHIdoiNSSTuxDIAg \e[0m"
+echo -e "\e[4;34m ﺮﻣﺎﻋ ﻩﺪﺒﻋ ﻪﻄﺳﺍﻮﺑ ﻩﺀﺎﺸﻧﺍ ﻢﺗ ﺞﻣﺎﻧﺮﺒﻟﺍ ﺍﺬﻫ \e[0m"
+echo -e "\e[1;34m ﻰﻌﻣ ﻞﺻﺍﻮﺗ ﺕﺍﺭﺎﺴﻔﺘﺳﺍ ﻯﻷ!!!\e[0m"
+echo -e "\e[1;32m           ﻡﺍﺮﺠﻴﻠﺘﻟﺍ ﺓﺎﻨﻗ: https://t.me/mohtrfandroid \e[0m"
+echo -e "\e[4;32m   :ﺏﻮﻴﺗﻮﻴﻟﺍ ﺓﺎﻨﻗ https://m.youtube.com/channel/UCmPba6mOHIdoiNSSTuxDIAg \e[0m"
 echo " "
-echo -e "\e[4;31m من فضلك اقرأ التعليمات بحرص !!! \e[0m"
+echo -e "\e[4;31m ﺹﺮﺤﺑ ﺕﺎﻤﻴﻠﻌﺘﻟﺍ ﺃﺮﻗﺍ ﻚﻠﻀﻓ ﻦﻣ !!! \e[0m"
 echo " "
-echo "اضغط  1 لتشغيل الرسائل : "
-echo "اضغط 2 لتشغيل المكالمات : "
-echo "اضغط 3 للتحديث (يعمل على linux ,Linux Emulators) "
-echo "اضغط 4 لعرض المميزات : "
-echo "اضغط 5 للخروج : "
+echo ": ﻞﺋﺎﺳﺮﻟﺍ ﻞﻴﻐﺸﺘﻟ 1  ﻂﻐﺿﺍ "
+echo ": ﺕﺎﻤﻟﺎﻜﻤﻟﺍ ﻞﻴﻐﺸﺘﻟ 2 ﻂﻐﺿﺍ "
+echo "ﺚﻳﺪﺤﺘﻠﻟ 3 ﻂﻐﺿﺍ (ﻰﻠﻋ ﻞﻤﻌﻳ linux ,Linux Emulators) "
+echo ": ﺕﺍﺰﻴﻤﻤﻟﺍ ﺽﺮﻌﻟ 4 ﻂﻐﺿﺍ "
+echo "ﺝﻭﺮﺨﻠﻟ 5 ﻂﻐﺿﺍ : "
 read ch
 if [ $ch -eq 1 ];then
 clear
@@ -69,9 +69,9 @@ rm update.speedx >> temp
 rm temp
 chmod +x TBomb.sh
 fi
-echo -e "\e[1;32m Tسيتم اعاده تشغيل البرنامج الان..."
-echo -e "\e[1;32m كل المتطلبات سيتم تثبيتها الان..."
-echo -e "\e[1;34m اضغط Enter للإعاده تشغيله والاستمرار..."
+echo -e "\e[1;32m T...ﻥﻻﺍ ﺞﻣﺎﻧﺮﺒﻟﺍ ﻞﻴﻐﺸﺗ ﻩﺩﺎﻋﺍ ﻢﺘﻴﺳ"
+echo -e "\e[1;32m ...ﻥﻻﺍ ﺎﻬﺘﻴﺒﺜﺗ ﻢﺘﻴﺳ ﺕﺎﺒﻠﻄﺘﻤﻟﺍ ﻞﻛ"
+echo -e "\e[1;34m ...ﺭﺍﺮﻤﺘﺳﻻﺍﻭ ﻪﻠﻴﻐﺸﺗ ﻩﺩﺎﻋﻺﻟ Enter ﻂﻐﺿﺍ"
 read a6
 ./TBomb.sh
 exit
@@ -90,9 +90,9 @@ echo "  [+] Protection List"
 echo "  [+] Automated Future Updates"
 echo "  [+] Easy To Use And Embed in Code"
 echo -e "\e[1;32m                   Contributors\e[1;33m"
-echo -e "\e[1;33m      [*]  SpeedX   \e[1;31m"
-echo "         [-] Mail At: ggspeedx29@gmail.com"
-echo -e "\e[1;33m      [*]  The Black Hacker Roxstar   \e[1;31m"
+echo -e "\e[1;33m      [*]  abdo amer   \e[1;31m"
+echo "         [-] Mail At: https://t.me/mohtrfandroid"
+echo -e "\e[1;33m      [*]  The Black Hacker abdo amer   \e[1;31m"
 echo "         [-] Ping At: http://wa.me/917600140353"
 echo -e "\e[1;33m      [*]  Rieltar   \e[1;31m"
 echo "         [-] Ping At: https://t.me/Rieltar"
@@ -100,16 +100,16 @@ echo -e "\e[1;33m      [*]  0n1cOn3 (Stefan)   \e[1;31m"
 echo "         [-] Mail At: 0n1cOn3@gmx.ch"
 echo ""
 echo ""
-echo -e "\e[1;31m هذا البرنامج للغرض التعليمى فقط.\e[0m"
-echo -e "\e[1;31m لا تستخدم هذا ف اذاء الاخرين. \e[0m"
-echo -e "\e[1;31m انا لست مسؤل عن اى استخدام خاطئ للبرنامج. \e[0m"
-echo -e "\e[1;32m احرص على تحديثه اذا لم يشتغل معك.\e[0m"
+echo -e "\e[1;31m ﻂﻘﻓ ﻰﻤﻴﻠﻌﺘﻟﺍ ﺽﺮﻐﻠﻟ ﺞﻣﺎﻧﺮﺒﻟﺍ ﺍﺬﻫ.\e[0m"
+echo -e "\e[1;31m ﻦﻳﺮﺧﻻﺍ ﺀﺍﺫﺍ ﻑ ﺍﺬﻫ ﻡﺪﺨﺘﺴﺗ ﻻ. \e[0m"
+echo -e "\e[1;31m ﺞﻣﺎﻧﺮﺒﻠﻟ ﺊﻃﺎﺧ ﻡﺍﺪﺨﺘﺳﺍ ﻯﺍ ﻦﻋ ﻝﺆﺴﻣ ﺖﺴﻟ ﺎﻧﺍ. \e[0m"
+echo -e "\e[1;32m .ﻚﻌﻣ ﻞﻐﺘﺸﻳ ﻢﻟ ﺍﺫﺍ ﻪﺜﻳﺪﺤﺗ ﻰﻠﻋ ﺹﺮﺣﺍ\e[0m"
 echo  " "
 echo -e "\e[4;31m That's All !!!\e[0m"
 echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
-echo -e "\e[1;32m           قناه التليجرام: https://t.me/mohtrfandroid \e[0m"
-echo -e "\e[4;32m   قناة اليوتيوب: https://m.youtube.com/channel/UCmPba6mOHIdoiNSSTuxDIAg \e[0m"
-echo "اضغط Enter للذهاب للقائمة الرئيسية"
+echo -e "\e[1;32m           :ﻡﺍﺮﺠﻴﻠﺘﻟﺍ ﻩﺎﻨﻗ https://t.me/mohtrfandroid \e[0m"
+echo -e "\e[4;32m  :ﺏﻮﻴﺗﻮﻴﻟﺍ ﺓﺎﻨﻗ  https://m.youtube.com/channel/UCmPba6mOHIdoiNSSTuxDIAg \e[0m"
+echo "ﺔﻴﺴﻴﺋﺮﻟﺍ ﺔﻤﺋﺎﻘﻠﻟ ﺏﺎﻫﺬﻠﻟ Enter ﻂﻐﺿﺍ"
 read a3
 clear
 elif [ $ch -eq 5 ];then
@@ -117,16 +117,15 @@ clear
 echo -e "\e[1;31m"
 figlet TBomb
 echo -e "\e[1;34m Created By \e[1;32m"
-toilet -f mono12 -F border SpeedX
+toilet -f mono12 -F border abdo amer
 echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
-echo -e "\e[1;32m           Mail: ggspeedx29@gmail.com \e[0m"
-echo -e "\e[1;32m       Whatsapp: https://bit.do/speedxgit \e[0m"
-echo -e "\e[4;32m   YouTube Page: https://www.youtube.com/c/GyanaTech \e[0m"
+echo -e "\e[1;32m           Mail: https://t.me/mohtrfandroid \e[0m"
+echo -e "\e[4;32m   YouTube Page: https://m.youtube.com/channel/UCmPba6mOHIdoiNSSTuxDIAg \e[0m"
 echo " "
 exit 0
 else
 echo -e "\e[4;32m Invalid Input !!! \e[0m"
-echo "Press Enter To Go Home"
+echo "ﺔﻴﺴﻴﺋﺮﻟﺍ ﺔﻤﺋﺎﻘﻠﻟ ﺏﺎﻫﺬﻠﻟ Enter ﻂﻐﺿﺍ"
 read a3
 clear
 fi
