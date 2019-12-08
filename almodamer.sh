@@ -77,8 +77,8 @@ exit
 elif [ $ch -eq 4 ];then
 clear
 echo -e "\e[1;33m"
-figlet TBomb
-echo -e "\e[1;34mCreated By \e[1;34m"
+figlet abdo amer
+echo -e "\e[1;34mﺔﻄﺳﺍﻮﺑ ﺀﺎﺸﻧﻹﺍ ﻢﺗ  \e[1;34m"
 toilet -f mono12 -F border abdo
 echo  " "
 echo -e "\e[1;32m                   Features\e[1;34m"
