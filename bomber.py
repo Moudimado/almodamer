@@ -476,7 +476,7 @@ def update():
     exit()
 
 
-clr()
+os.system("clear")
 banner()
 try:
     urllib.request.urlopen('https://www.google.com')
@@ -487,15 +487,13 @@ except Exception:
     exit()
 print('\t... ﺕﺎﺜﻳﺪﺤﺗ ﻯﺍ ﻦﻋ ﺚﺤﺒﻟﺍ ﻯﺭﺎﺟ')
 ver = urllib.request.urlopen(
-    "https://raw.githubusercontent.com/kamal200947/almodamer/blob/master/.version").read().decode('utf-8')
+    "https://raw.githubusercontent.com/TheSpeedX/TBomb/master/.version").read().decode('utf-8')
 verl = ''
 try:
     verl = open(".version", 'r').read()
 except Exception:
     pass
-if ver != verl:
-    print('\n\t\t.... ﺡﺎﺘﻣ ﺚﻳﺪﺤﺗ ﺪﺟﻮﻳ')
-    print('\t...ﺚﻳﺪﺤﺘﻟﺍ ﻯﺭﺎﺟ')
+
     
 print("ﺙﺪﺤﻣ ﻚﺑ ﺹﺎﺨﻟﺍ ﺭﺍﺪﺻﻹﺍ")
 print('\n\n\t\t\t... ﺞﻣﺎﻧﺮﺒﻟﺍ ﺢﺘﻓ ﻯﺭﺎﺟ\n\n')
