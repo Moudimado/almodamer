@@ -1,9 +1,9 @@
 #!/bin/bash
 clear
-echo -e "\e[4;31m عبده عامر !!! \e[0m"
-echo -e "\e[1;34m يقدم لكم \e[0m"
-echo -e "\e[1;32m برنامج "المدمر" \e[0m"
-echo "اضغط Enter للإستمرار"
+echo -e "\e[4;31m ﺮﻣﺎﻋ ﻩﺪﺒﻋ !!! \e[0m"
+echo -e "\e[1;34m ﻢﻜﻟ ﻡﺪﻘﻳ \e[0m"
+echo -e "\e[1;32m ﺮﻣﺪﻤﻟﺍ" ﺞﻣﺎﻧﺮﺑ" \e[0m"
+echo "ﺭﺍﺮﻤﺘﺳﻺﻟ retnE ﻂﻐﺿﺍ"
 read a1
 if [[ -s update.speedx ]];then
 echo "كل المتطلبات موجوده...."
