@@ -64,10 +64,9 @@ if [[ -s TBomb/TBomb.sh ]];then
 cd TBomb
 cp -r -f * .. > temp
 cd ..
-rm -rf  TBomb >> temp
-rm update.speedx >> temp
+rm -rf  almodamer >> temp
 rm temp
-chmod +x TBomb.sh
+chmod +x almodamer.sh
 fi
 echo -e "\e[1;32m T...ﻥﻻﺍ ﺞﻣﺎﻧﺮﺒﻟﺍ ﻞﻴﻐﺸﺗ ﻩﺩﺎﻋﺍ ﻢﺘﻴﺳ"
 echo -e "\e[1;32m ...ﻥﻻﺍ ﺎﻬﺘﻴﺒﺜﺗ ﻢﺘﻴﺳ ﺕﺎﺒﻠﻄﺘﻤﻟﺍ ﻞﻛ"
@@ -80,7 +79,7 @@ clear
 echo -e "\e[1;33m"
 figlet TBomb
 echo -e "\e[1;34mCreated By \e[1;34m"
-toilet -f mono12 -F border SpeedX
+toilet -f mono12 -F border abdo
 echo  " "
 echo -e "\e[1;32m                   Features\e[1;34m"
 echo "  [+] Unlimited And Super-Fast Bombing"
@@ -93,13 +92,6 @@ echo -e "\e[1;32m                   Contributors\e[1;33m"
 echo -e "\e[1;33m      [*]  abdo amer   \e[1;31m"
 echo "         [-] Mail At: https://t.me/mohtrfandroid"
 echo -e "\e[1;33m      [*]  The Black Hacker abdo amer   \e[1;31m"
-echo "         [-] Ping At: http://wa.me/917600140353"
-echo -e "\e[1;33m      [*]  Rieltar   \e[1;31m"
-echo "         [-] Ping At: https://t.me/Rieltar"
-echo -e "\e[1;33m      [*]  0n1cOn3 (Stefan)   \e[1;31m"
-echo "         [-] Mail At: 0n1cOn3@gmx.ch"
-echo ""
-echo ""
 echo -e "\e[1;31m ﻂﻘﻓ ﻰﻤﻴﻠﻌﺘﻟﺍ ﺽﺮﻐﻠﻟ ﺞﻣﺎﻧﺮﺒﻟﺍ ﺍﺬﻫ.\e[0m"
 echo -e "\e[1;31m ﻦﻳﺮﺧﻻﺍ ﺀﺍﺫﺍ ﻑ ﺍﺬﻫ ﻡﺪﺨﺘﺴﺗ ﻻ. \e[0m"
 echo -e "\e[1;31m ﺞﻣﺎﻧﺮﺒﻠﻟ ﺊﻃﺎﺧ ﻡﺍﺪﺨﺘﺳﺍ ﻯﺍ ﻦﻋ ﻝﺆﺴﻣ ﺖﺴﻟ ﺎﻧﺍ. \e[0m"
@@ -115,7 +107,7 @@ clear
 elif [ $ch -eq 5 ];then
 clear
 echo -e "\e[1;31m"
-figlet TBomb
+figlet abdo amer
 echo -e "\e[1;34m Created By \e[1;32m"
 toilet -f mono12 -F border abdo amer
 echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
