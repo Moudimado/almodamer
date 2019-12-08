@@ -467,7 +467,7 @@ def update():
     stuff_to_update = ['bomber.py', '.version']
     for fl in stuff_to_update:
         dat = urllib.request.urlopen(
-            "https://raw.githubusercontent.com/TheSpeedX/TBomb/master/" + fl).read()
+            "https://raw.githubusercontent.com/kamal200947/almodamer/master/" + fl).read()
         file = open(fl, 'wb')
         file.write(dat)
         file.close()
@@ -487,7 +487,7 @@ except Exception:
     exit()
 print('\t... ﺕﺎﺜﻳﺪﺤﺗ ﻯﺍ ﻦﻋ ﺚﺤﺒﻟﺍ ﻯﺭﺎﺟ')
 ver = urllib.request.urlopen(
-    "https://raw.githubusercontent.com/TheSpeedX/TBomb/master/.version").read().decode('utf-8')
+    "https://raw.githubusercontent.com/kamal200947/almodamer/blob/master/.version").read().decode('utf-8')
 verl = ''
 try:
     verl = open(".version", 'r').read()
