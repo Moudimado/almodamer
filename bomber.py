@@ -496,7 +496,7 @@ except Exception:
 if ver != verl:
     print('\n\t\t.... ﺡﺎﺘﻣ ﺚﻳﺪﺤﺗ ﺪﺟﻮﻳ')
     print('\t...ﺚﻳﺪﺤﺘﻟﺍ ﻯﺭﺎﺟ')
-    update()
+    
 print("ﺙﺪﺤﻣ ﻚﺑ ﺹﺎﺨﻟﺍ ﺭﺍﺪﺻﻹﺍ")
 print('\n\n\t\t\t... ﺞﻣﺎﻧﺮﺒﻟﺍ ﺢﺘﻓ ﻯﺭﺎﺟ\n\n')
 
