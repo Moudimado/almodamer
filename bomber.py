@@ -14,8 +14,8 @@ import urllib.parse
 try:
     import requests
 except ImportError:
-    print('[!] خطأ: لم يتم تثبيت بعض التبعيات')
-    print('اكتب \'pip install -r requirements.txt\' to install all required packages')
+    print('[!] ﺕﺎﻴﻌﺒﺘﻟﺍ ﺾﻌﺑ ﺖﻴﺒﺜﺗ ﻢﺘﻳ ﻢﻟ :ﺄﻄﺧ')
+    print('ﺐﺘﻛﺍ \'pip install -r requirements.txt\' to install all required packages')
     exit()
 
 # If You Wanna Take Credits For This Code, Please Look Yourrself Again
@@ -279,8 +279,8 @@ def checkinternet():
     except Exception:
         res = True
     if res:
-        print("\n\n\tيبدو أن سرعة الإنترنت لديك بطيئة أو أنك تستخدم  بروكسى ...")
-        print('\t\tTBomb سوف يتوقف الان...\n\n')
+        print("\n\n\t... ﻰﺴﻛﻭﺮﺑ  ﻡﺪﺨﺘﺴﺗ ﻚﻧﺃ ﻭﺃ ﺔﺌﻴﻄﺑ ﻚﻳﺪﻟ ﺖﻧﺮﺘﻧﻹﺍ ﺔﻋﺮﺳ ﻥﺃ ﻭﺪﺒﻳ")
+        print('\t\tTBomb ...ﻥﻻﺍ ﻒﻗﻮﺘﻳ ﻑﻮﺳ\n\n')
         banner()
         exit()
 
@@ -409,38 +409,38 @@ def start(target, counter, delay, ch, cc):
             api = random.choice(ch)
         except Exception:
             if cc == "91":
-                print('عذرًا ، انتهت صلاحية جميع واجهات برمجة التطبيقات ، الرجاء تحديث TBomb')
-                input('اضغط ENTER للخروج...')
+                print('ﺚﻳﺪﺤﺗ ﺀﺎﺟﺮﻟﺍ ، ﺕﺎﻘﻴﺒﻄﺘﻟﺍ ﺔﺠﻣﺮﺑ ﺕﺎﻬﺟﺍﻭ ﻊﻴﻤﺟ ﺔﻴﺣﻼﺻ ﺖﻬﺘﻧﺍ ، ﺍًﺭﺬﻋ TBomb')
+                input('...ﺝﻭﺮﺨﻠﻟ Enter ﻂﻐﺿﺍ')
                 exit()
             else:
                 if success > 0:
                     print(
-                        '\n\n\نحن آسفون للقول إن الحد الأقصى للمحاولات لبلدك قد تم بلوغه...')
+                        '\n\n\...ﻪﻏﻮﻠﺑ ﻢﺗ ﺪﻗ ﻙﺪﻠﺒﻟ ﺕﻻﻭﺎﺤﻤﻠﻟ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ ﻥﺇ ﻝﻮﻘﻠﻟ ﻥﻮﻔﺳﺁ ﻦﺤﻧ')
                     print(
-                        '\nنحن نعمل بجد لزيادة الحد الدولي...')
+                        '\n...ﻲﻟﻭﺪﻟﺍ ﺪﺤﻟﺍ ﺓﺩﺎﻳﺰﻟ ﺪﺠﺑ ﻞﻤﻌﻧ ﻦﺤﻧ')
                     input(
-                        '\nهذا سيساعدنا على تقديم الدعم لبلدك بسرعة ...\n\nPress Enter To Exit...')
+                        '\nﺔﻋﺮﺴﺑ ﻙﺪﻠﺒﻟ ﻢﻋﺪﻟﺍ ﻢﻳﺪﻘﺗ ﻰﻠﻋ ﺎﻧﺪﻋﺎﺴﻴﺳ ﺍﺬﻫ ...\n\n...ﺝﻭﺮﺨﻠﻟ Enter ﻂﻐﺿﺍ')
                     os.system('rm *.xxx* > /dev/null 2>&1')
                     print('\n\n')
                     banner()
                     exit()
                 else:
-                    print('\n\n\tآسف بلدك غير مدعومه ...')
+                    print('\n\n\t... ﻪﻣﻮﻋﺪﻣ ﺮﻴﻏ ﻙﺪﻠﺑ ﻒﺳﺁ')
                     print(
-                        '\t\tيرجى إرسال بريد إلكتروني إلى kemokkemok10@gmail.com لإعلامنا...')
-                    input('اضغط ENTER للخروج...')
+                        '\t\tﻰﻟﺇ ﻲﻧﻭﺮﺘﻜﻟﺇ ﺪﻳﺮﺑ ﻝﺎﺳﺭﺇ ﻰﺟﺮﻳ kemokkemok10@gmail.com ...ﺎﻨﻣﻼﻋﻹ')
+                    input('...ﺝﻭﺮﺨﻠﻟ Enter ﻂﻐﺿﺍ')
                     exit()
         print("==================================================================")
-        print("                البرنامج قيد التنفيذ ، يرجى الانتظار !!               ")
-        print("     يرجى الحفاظ على اتصال بياناتك نشطًا أثناء التشغيل !!    ")
+        print("                !! ﺭﺎﻈﺘﻧﻻﺍ ﻰﺟﺮﻳ ، ﺬﻴﻔﻨﺘﻟﺍ ﺪﻴﻗ ﺞﻣﺎﻧﺮﺒﻟﺍ               ")
+        print("     !! ﻞﻴﻐﺸﺘﻟﺍ ﺀﺎﻨﺛﺃ ﺍًﻄﺸﻧ ﻚﺗﺎﻧﺎﻴﺑ ﻝﺎﺼﺗﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻰﺟﺮﻳ    ")
         print("==================================================================")
-        print("             الرقم المستهدف           : +" + str(cc) + " ", target)
-        print("             عدد الطلبات المرسلة : ", requested)
-        print("             طلبات ناجحة     : ", success)
-        print("             طلبات فاشله         : ", failed)
+        print("             :           ﻑﺪﻬﺘﺴﻤﻟﺍ ﻢﻗﺮﻟﺍ +" + str(cc) + " ", target)
+        print("             : ﺔﻠﺳﺮﻤﻟﺍ ﺕﺎﺒﻠﻄﻟﺍ ﺩﺪﻋ ", requested)
+        print("             :     ﺔﺤﺟﺎﻧ ﺕﺎﺒﻠﻃ ", success)
+        print("             :         ﻪﻠﺷﺎﻓ ﺕﺎﺒﻠﻃ ", failed)
         print("==================================================================")
-        print("              استخدم هذا من أجل المتعة ، وليس من أجل الانتقام !!                ")
-        print("              تم صنع البرنامج بواسطتى !!                ")
+        print("              !! ﻡﺎﻘﺘﻧﻻﺍ ﻞﺟﺃ ﻦﻣ ﺲﻴﻟﻭ ، ﺔﻌﺘﻤﻟﺍ ﻞﺟﺃ ﻦﻣ ﺍﺬﻫ ﻡﺪﺨﺘﺳﺍ                ")
+        print("              !! ﺮﻣﺎﻋ ﻩﺪﺒﻋ ﺔﻄﺳﺍﻮﺑ ﺞﻣﺎﻧﺮﺒﻟﺍ ﻊﻨﺻ ﻢﺗ                ")
         print("==================================================================")
 
         try:
@@ -457,7 +457,7 @@ def start(target, counter, delay, ch, cc):
         time.sleep(float(delay))
         if requested % 3 == 0:
             checkinternet()
-    print('\n\nاكتمل الأرسال..')
+    print('\n\n..ﻝﺎﺳﺭﻷﺍ ﻞﻤﺘﻛﺍ')
     os.system('rm *.xxx* > /dev/null 2>&1')
     banner()
     exit()
@@ -471,8 +471,8 @@ def update():
         file = open(fl, 'wb')
         file.write(dat)
         file.close()
-    print('\n\t\tتم التحديث بنجاح !!!!')
-    print('\tيرجى تشغيل البرنامج مرة أخرى...')
+    print('\n\t\t!!!! ﺡﺎﺠﻨﺑ ﺚﻳﺪﺤﺘﻟﺍ ﻢﺗ')
+    print('\t...ﻯﺮﺧﺃ ﺓﺮﻣ ﺞﻣﺎﻧﺮﺒﻟﺍ ﻞﻴﻐﺸﺗ ﻰﺟﺮﻳ')
     exit()
 
 
@@ -481,11 +481,11 @@ banner()
 try:
     urllib.request.urlopen('https://www.google.com')
 except Exception:
-    print("أنت غير متصل بالإنترنت!!!")
-    print("\tيرجى الاتصال بالإنترنت للمتابعة...\n")
-    input('الخروج....\n اضغط ENTER للخروج....')
+    print("!!!ﺖﻧﺮﺘﻧﻹﺎﺑ ﻞﺼﺘﻣ ﺮﻴﻏ ﺖﻧﺃ")
+    print("\t...ﺔﻌﺑﺎﺘﻤﻠﻟ ﺖﻧﺮﺘﻧﻹﺎﺑ ﻝﺎﺼﺗﻻﺍ ﻰﺟﺮﻳ\n")
+    input('....ﺝﻭﺮﺨﻟﺍ\n ....ﺝﻭﺮﺨﻠﻟ Enter ﻂﻐﺿﺍ')
     exit()
-print('\tجارى البحث عن اى تحديثات ...')
+print('\t... ﺕﺎﺜﻳﺪﺤﺗ ﻯﺍ ﻦﻋ ﺚﺤﺒﻟﺍ ﻯﺭﺎﺟ')
 ver = urllib.request.urlopen(
     "https://raw.githubusercontent.com/TheSpeedX/TBomb/master/.version").read().decode('utf-8')
 verl = ''
@@ -494,31 +494,31 @@ try:
 except Exception:
     pass
 if ver != verl:
-    print('\n\t\tيوجد تحديث متاح ....')
-    print('\tجارى التحديث...')
+    print('\n\t\t.... ﺡﺎﺘﻣ ﺚﻳﺪﺤﺗ ﺪﺟﻮﻳ')
+    print('\t...ﺚﻳﺪﺤﺘﻟﺍ ﻯﺭﺎﺟ')
     update()
-print("الإصدار الخاص بك محدث")
-print('\n\n\t\t\tجارى فتح البرنامج ...\n\n')
+print("ﺙﺪﺤﻣ ﻚﺑ ﺹﺎﺨﻟﺍ ﺭﺍﺪﺻﻹﺍ")
+print('\n\n\t\t\t... ﺞﻣﺎﻧﺮﺒﻟﺍ ﺢﺘﻓ ﻯﺭﺎﺟ\n\n')
 
 while True:
     pn = ""
-    cc = input("\tادخل كود الدولة  (بدون +) : ")
+    cc = input("\t: )+ ﻥﻭﺪﺑ(  ﺔﻟﻭﺪﻟﺍ ﺩﻮﻛ ﻞﺧﺩﺍ ")
     if '+' in cc:
         tc = list(cc)
         tc.remove('+')
         cc = ''.join(tc)
         cc = cc.strip()
-    pn = input("\tادخل رقم الضحية: +" + cc + " ")
+    pn = input("\t:ﺔﻴﺤﻀﻟﺍ ﻢﻗﺭ ﻞﺧﺩﺍ +" + cc + " ")
     pn = remsp(pn)
     if len(cc) >= 4 or len(cc) < 1:
-        print('\n\nكود دوله غير صالح ..\n\t\tرموز البلد عموما 1-3 أرقام...\n')
+        print('\n\n.. ﺢﻟﺎﺻ ﺮﻴﻏ ﻪﻟﻭﺩ ﺩﻮﻛ\n\t\t...ﻡﺎﻗﺭﺃ 3-1 ﺎﻣﻮﻤﻋ ﺪﻠﺒﻟﺍ ﺯﻮﻣﺭ\n')
         continue
     if len(pn) <= 6:
-        print('\n\nرقم موبايل غير صحيح..\n')
+        print('\n\n..ﺢﻴﺤﺻ ﺮﻴﻏ ﻞﻳﺎﺑﻮﻣ ﻢﻗﺭ\n')
         continue
     for cch in str(cc + pn):
         if not cch.isdigit():
-            print('\n\nرقم الموبايل يجب ان يتكون من ارقام فقط\n')
+            print('\n\nﻂﻘﻓ ﻡﺎﻗﺭﺍ ﻦﻣ ﻥﻮﻜﺘﻳ ﻥﺍ ﺐﺠﻳ ﻞﻳﺎﺑﻮﻤﻟﺍ ﻢﻗﺭ\n')
             continue
     break
 type = 0
@@ -528,44 +528,44 @@ try:
 except Exception:
     type = 0
 if type == 1:
-    nm = int(input("أدخل عدد الرسائل لإرسالها(الحد الأقصى 15): "))
+    nm = int(input(":)51 ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ(ﺎﻬﻟﺎﺳﺭﻹ ﻞﺋﺎﺳﺮﻟﺍ ﺩﺪﻋ ﻞﺧﺩﺃ "))
     if nm > 15:
-        print("\t\tلقد تم ادخال  " + str(nm) +
-              ".\n\tتسويه القيمه الى 15")
+        print("\t\tﻝﺎﺧﺩﺍ ﻢﺗ ﺪﻘﻟ  " + str(nm) +
+              ".\n\tﻰﻟﺍ ﻪﻤﻴﻘﻟﺍ ﻪﻳﻮﺴﺗ 15")
         nm = 15
-    dl = float(input("أدخل تأخير الوقت (بالثواني) [مستحسن 10 ثوان] : "))
+    dl = float(input(": ]ﻥﺍﻮﺛ 01 ﻦﺴﺤﺘﺴﻣ[ )ﻲﻧﺍﻮﺜﻟﺎﺑ( ﺖﻗﻮﻟﺍ ﺮﻴﺧﺄﺗ ﻞﺧﺩﺃ "))
 elif type == 0:
     if cc == "91":
-        nm = int(input("أدخل عدد الرسائل المراد إرسالها (0 غير محدود): "))
+        nm = int(input(":)ﺩﻭﺪﺤﻣ ﺮﻴﻏ 0( ﺎﻬﻟﺎﺳﺭﺇ ﺩﺍﺮﻤﻟﺍ ﻞﺋﺎﺳﺮﻟﺍ ﺩﺪﻋ ﻞﺧﺩﺃ "))
         dl = float(
-            input("أدخل وقت التأخير (بالثواني) [مستحسن 2 ثانية] : "))
+            input(": ]ﺔﻴﻧﺎﺛ 2 ﻦﺴﺤﺘﺴﻣ[ )ﻲﻧﺍﻮﺜﻟﺎﺑ( ﺮﻴﺧﺄﺘﻟﺍ ﺖﻗﻭ ﻞﺧﺩﺃ "))
     else:
-        nm = int(input("أدخل عدد الرسائل المراد إرسالها: "))
+        nm = int(input(":ﺎﻬﻟﺎﺳﺭﺇ ﺩﺍﺮﻤﻟﺍ ﻞﺋﺎﺳﺮﻟﺍ ﺩﺪﻋ ﻞﺧﺩﺃ "))
         dl = float(
-            input("أدخل تأخير الوقت (بالثواني) [مستحسن 10 ثوان ] : "))
+            input(": ] ﻥﺍﻮﺛ 01 ﻦﺴﺤﺘﺴﻣ[ )ﻲﻧﺍﻮﺜﻟﺎﺑ( ﺖﻗﻮﻟﺍ ﺮﻴﺧﺄﺗ ﻞﺧﺩﺃ "))
 maxlim = 0
 if cc == "91":
     maxlim = 500
 else:
     maxlim = 100
 if nm > maxlim:
-    print('\n\n\tآسف بسبب سوء استخدام هذا البرنامج. نحن نقدمه فقط ' +
-          str(maxlim) + ' SMS فى اللحظه...\n\n')
-    print('عدد الرسائل التى تم ارسالها ل ' + str(maxlim))
+    print('\n\n\tﻂﻘﻓ ﻪﻣﺪﻘﻧ ﻦﺤﻧ .ﺞﻣﺎﻧﺮﺒﻟﺍ ﺍﺬﻫ ﻡﺍﺪﺨﺘﺳﺍ ﺀﻮﺳ ﺐﺒﺴﺑ ﻒﺳﺁ ' +
+          str(maxlim) + ' ...ﻪﻈﺤﻠﻟﺍ ﻰﻓ SMS\n\n')
+    print('ﻝ ﺎﻬﻟﺎﺳﺭﺍ ﻢﺗ ﻰﺘﻟﺍ ﻞﺋﺎﺳﺮﻟﺍ ﺩﺪﻋ ' + str(maxlim))
     nm = maxlim
 if not cc.strip() == "91":
     if type == 1:
         print(
-            '\t\tنأسف ولكن Calling Bombing معتمد حاليًا للأرقام الهندية فقط!!!!')
+            '\t\t!!!!ﻂﻘﻓ ﺔﻳﺪﻨﻬﻟﺍ ﻡﺎﻗﺭﻸﻟ ﺍًﻴﻟﺎﺣ ﺪﻤﺘﻌﻣ Calling Bombing ﻦﻜﻟﻭ ﻒﺳﺄﻧ')
         print()
-        input('اضغط ENTER للخروج....')
+        input('....ﺝﻭﺮﺨﻠﻟ Enter ﻂﻐﺿﺍ')
         print('\n\n')
         banner()
         exit()
     cnt = 0
     if pn.strip() == '' or dl <= 0 or nm <= 0 or cc.strip() == '' or cc.find('+') != -1:
-        print('\n\n\tيبدو أنك قد أعطيت مدخلات خاطئة...')
-        input('\n\t\tاضغط على Enter للخروج...')
+        print('\n\n\t...ﺔﺌﻃﺎﺧ ﺕﻼﺧﺪﻣ ﺖﻴﻄﻋﺃ ﺪﻗ ﻚﻧﺃ ﻭﺪﺒﻳ')
+        input('\n\t\t...ﺝﻭﺮﺨﻠﻟ retnE ﻰﻠﻋ ﻂﻐﺿﺍ')
         banner()
         exit()
     ch = [0, 14, 15, 16]
@@ -574,13 +574,13 @@ if not cc.strip() == "91":
 ch = [i for i in range(17)]
 cbomb = False
 if pn.strip() == '' or dl <= 0 or nm < 0:
-    print('\n\n\tيبدو أنك قد أعطيت مدخلات خاطئة...')
-    input('\n\t\tاضغط على Enter للخروج...')
+    print('\n\n\t...ﺔﺌﻃﺎﺧ ﺕﻼﺧﺪﻣ ﺖﻴﻄﻋﺃ ﺪﻗ ﻚﻧﺃ ﻭﺪﺒﻳ')
+    input('\n\t\t...ﺝﻭﺮﺨﻠﻟ retnE ﻰﻠﻋ ﻂﻐﺿﺍ')
     banner()
     exit()
 if type == 1:
-    print("ملاحظة: قد لا يعمل البرنامج على أرقام تنشيط DND...\n")
-    print("\n\tمن فضلك لا تفرط في نداء البرنامج بحيث يعمل لفترة أطول من الزمن...")
+    print("...DND ﻂﻴﺸﻨﺗ ﻡﺎﻗﺭﺃ ﻰﻠﻋ ﺞﻣﺎﻧﺮﺒﻟﺍ ﻞﻤﻌﻳ ﻻ ﺪﻗ :ﺔﻈﺣﻼﻣ\n")
+    print("\n\t...ﻦﻣﺰﻟﺍ ﻦﻣ ﻝﻮﻃﺃ ﺓﺮﺘﻔﻟ ﻞﻤﻌﻳ ﺚﻴﺤﺑ ﺞﻣﺎﻧﺮﺒﻟﺍ ﺀﺍﺪﻧ ﻲﻓ ﻁﺮﻔﺗ ﻻ ﻚﻠﻀﻓ ﻦﻣ")
     cbomb = True
 if cbomb:
     chl = [100, 101, 102, 103, 104, 105, 106]
@@ -589,23 +589,23 @@ if cbomb:
 if nm == 0:
     nt = int(input("\tNumber Of Threads(10 to 20) : "))
     if nt <= 0 or nt >= 30:
-        print('\tTBomb يظهر نتيجة أفضل في 10 to 25 Threads\n\t\tلا يزال مستمر....')
-    print("\n\nيرجى تذكر أن هذا البرنامج في المرحلة التجريبية وسريع بشكل لا يصدق...")
+        print('\tTBomb 52 ot 01 ﻲﻓ ﻞﻀﻓﺃ ﺔﺠﻴﺘﻧ ﺮﻬﻈﻳ Threads\n\t\t....ﺮﻤﺘﺴﻣ ﻝﺍﺰﻳ ﻻ')
+    print("\n\n...ﻕﺪﺼﻳ ﻻ ﻞﻜﺸﺑ ﻊﻳﺮﺳﻭ ﺔﻴﺒﻳﺮﺠﺘﻟﺍ ﺔﻠﺣﺮﻤﻟﺍ ﻲﻓ ﺞﻣﺎﻧﺮﺒﻟﺍ ﺍﺬﻫ ﻥﺃ ﺮﻛﺬﺗ ﻰﺟﺮﻳ")
     t = [None] * nt
     print("\n\n==================================================================")
-    print("                يستعد البرنامج ، يرجى الانتظار !!               ")
-    print("     يرجى الحفاظ على اتصال بياناتك نشطًا أثناء التشغيل !!    ")
+    print("                !! ﺭﺎﻈﺘﻧﻻﺍ ﻰﺟﺮﻳ ، ﺞﻣﺎﻧﺮﺒﻟﺍ ﺪﻌﺘﺴﻳ               ")
+    print("     !! ﻞﻴﻐﺸﺘﻟﺍ ﺀﺎﻨﺛﺃ ﺍًﻄﺸﻧ ﻚﺗﺎﻧﺎﻴﺑ ﻝﺎﺼﺗﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻰﺟﺮﻳ    ")
     print("==================================================================")
-    print("             رقم الضحيه       : +91", pn)
-    print("             عدد المواضيع   : ", nt)
-    print("             التأخير               : ", dl)
+    print("             :       ﻪﻴﺤﻀﻟﺍ ﻢﻗﺭ +91", pn)
+    print("             :   ﻊﻴﺿﺍﻮﻤﻟﺍ ﺩﺪﻋ ", nt)
+    print("             :               ﺮﻴﺧﺄﺘﻟﺍ ", dl)
     print("==================================================================")
-    print("              استخدم هذا من أجل المتعة ، وليس من أجل الانتقام !!                ")
-    print("              تم إنشاء هذا البرنامج بواسطة Me !!                ")
+    print("              !! ﻡﺎﻘﺘﻧﻻﺍ ﻞﺟﺃ ﻦﻣ ﺲﻴﻟﻭ ، ﺔﻌﺘﻤﻟﺍ ﻞﺟﺃ ﻦﻣ ﺍﺬﻫ ﻡﺪﺨﺘﺳﺍ                ")
+    print("              !! ﺮﻣﺎﻋ ﻩﺪﺒﻋ ﺔﻄﺳﺍﻮﺑ ﺞﻣﺎﻧﺮﺒﻟﺍ ﺍﺬﻫ ﺀﺎﺸﻧﺇ ﻢﺗ                ")
     print("==================================================================")
     input('\n\nPress CTRL+Z To STOP Bomber... \nPress Enter To Start Bomber...\n')
     os.system('rm *.xxx* > /dev/null 2>&1')
-    print("\n\nجارى تشغيل البرنامج....")
+    print("\n\n....ﺞﻣﺎﻧﺮﺒﻟﺍ ﻞﻴﻐﺸﺗ ﻯﺭﺎﺟ")
     for i in range(nt):
         t[i] = threading.Thread(target=infinite, args=(pn, dl, ch, maxlim,))
         t[i].daemon = True
@@ -615,11 +615,11 @@ if nm == 0:
     while True:
         ci += 1
         l = count_inf
-        print("	   إجمالي عدد الطلبات المرسلة : ", l)
+        print("	   : ﺔﻠﺳﺮﻤﻟﺍ ﺕﺎﺒﻠﻄﻟﺍ ﺩﺪﻋ ﻲﻟﺎﻤﺟﺇ ", l)
         if int(l) > maxlim:
-            print('\n\n\tآسف بسبب سوء استخدام هذا البرنامج نحن نقدم فقط ' +
-                  str(maxlim) + ' SMS فى المره...\n\n')
-            input('اضغط على Enter للخروج...')
+            print('\n\n\t ﻂﻘﻓ ﻡﺪﻘﻧ ﻦﺤﻧ ﺞﻣﺎﻧﺮﺒﻟﺍ ﺍﺬﻫ ﻡﺍﺪﺨﺘﺳﺍ ﺀﻮﺳ ﺐﺒﺴﺑ ﻒﺳﺁ' +
+                  str(maxlim) + ' ...ﻩﺮﻤﻟﺍ ﻰﻓ SMS\n\n')
+            input('...ﺝﻭﺮﺨﻠﻟ ُىفثق ﻰﻠﻋ ﻂﻐﺿﺍ')
             os.system('rm *xxx* > /dev/null 2>&1')
             banner()
             exit()
