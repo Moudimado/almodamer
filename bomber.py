@@ -464,7 +464,7 @@ def start(target, counter, delay, ch, cc):
 
 
 def update():
-    stuff_to_update = ['bomber.py', '.version']
+    stuff_to_update = ['almodamer.py', '.version']
     for fl in stuff_to_update:
         dat = urllib.request.urlopen(
             "https://raw.githubusercontent.com/kamal200947/almodamer/master/" + fl).read()
