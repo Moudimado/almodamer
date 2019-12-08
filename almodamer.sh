@@ -60,8 +60,8 @@ clear
 apt install git -y
 echo -e "\e[1;34m Downloading Latest Files..."
 git clone https://github.com/kamal200947/almodamer
-if [[ -s TBomb/TBomb.sh ]];then
-cd TBomb
+if [[ -s almodamer/almodamer.sh ]];then
+cd almodamer
 cp -r -f * .. > temp
 cd ..
 rm -rf  almodamer >> temp
@@ -72,7 +72,7 @@ echo -e "\e[1;32m T...ﻥﻻﺍ ﺞﻣﺎﻧﺮﺒﻟﺍ ﻞﻴﻐﺸﺗ ﻩﺩ�
 echo -e "\e[1;32m ...ﻥﻻﺍ ﺎﻬﺘﻴﺒﺜﺗ ﻢﺘﻴﺳ ﺕﺎﺒﻠﻄﺘﻤﻟﺍ ﻞﻛ"
 echo -e "\e[1;34m ...ﺭﺍﺮﻤﺘﺳﻻﺍﻭ ﻪﻠﻴﻐﺸﺗ ﻩﺩﺎﻋﻺﻟ Enter ﻂﻐﺿﺍ"
 read a6
-./TBomb.sh
+./almodamer.sh
 exit
 elif [ $ch -eq 4 ];then
 clear
