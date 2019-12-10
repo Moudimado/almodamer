@@ -1,4 +1,4 @@
-# almodamer
+# anonymous 
 An open-source SMS/call bomber for Linux And Termux.
 
 This script is only for educational purposes or to prank.
@@ -32,10 +32,10 @@ To use the bomber type the following commands in Termux:
 ```
 pkg install git
 pkg install python
-git clone https://github.com/kamal200947/almodamer.git
-cd almodamer
-chmod +x almodamer.sh
-./almodamer.sh
+git clone https://github.com/kamal200947/anonymous .git
+cd anonymous 
+chmod +x anonymous .sh
+./anonymous.sh
 ```
 
 ### For Linux
@@ -98,3 +98,5 @@ Feel Free To Open An Issue...
            
 "# almodamer" 
 # almodamer
+
+Slowloris
